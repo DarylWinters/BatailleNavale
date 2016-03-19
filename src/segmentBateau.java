@@ -13,7 +13,7 @@ public class segmentBateau extends cases {
         touche = true;
     }
     
-    public void getStatut() {
-     if(touche == false)
-         }    
+    public boolean getStatus() {
+     return touche;
+    }    
 }

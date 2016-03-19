@@ -21,7 +21,7 @@ public class plateau extends JPanel{
         monde = new cases[largeur][hauteur];
         for (int j = 0 ; j <  hauteur; j++){
             for (int i = 0 ; i < largeur; i++){ 
-                monde[i][j] = new cases();    
+                monde[i][j] = new cases(null,null);    
             }
         }
     }

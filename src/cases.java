@@ -4,11 +4,12 @@ import java.awt.Dimension;
 public class cases {
 
     boolean touche = false;
-    IHMImage toucheImg = new IHMImage();
-    IHMImage normalImg = new IHMImage();
+    IHMImage toucheImg;
+    IHMImage normalImg;
     
-    public cases() {
-        
+    public cases(IHMImage touche, IHMImage normal) {
+        toucheImg = touche;
+        normalImg = normal;
     }
 
     public  void toucher() {
