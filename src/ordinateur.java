@@ -15,7 +15,7 @@ public class ordinateur extends joueur {
                     // TEST
                 }
                 case 3:{
-                    
+                    // GPT
                 }
                 default:{
                     System.out.print("Ok ta mer");
