@@ -13,7 +13,7 @@ public class ordinateur extends joueur {
                     
                 }
                 case 2:{
-                    
+                    // TEST
                 }
                 case 3:{
                     
