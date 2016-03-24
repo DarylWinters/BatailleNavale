@@ -9,7 +9,7 @@ public class ordinateur extends joueur {
         if (joueurIsPlaying == false){
             switch (niveauDeDifficulté){
                 case 1 :{
-                   
+                   // ThisisafuckingtestofGit
                     
                 }
                 case 2:{
