@@ -9,8 +9,7 @@ public class ordinateur extends joueur {
         if (joueurIsPlaying == false){
             switch (niveauDeDifficulté){
                 case 1 :{
-                   
-                    
+                    // kamoulox
                 }
                 case 2:{
                     // TEST
