@@ -13,16 +13,17 @@ public class ordinateur extends joueur {
     public ordinateur(int niveauDeDifficulté) {
         if (joueurIsPlaying == false){
             switch (niveauDeDifficulté){
-                case 1 :{
-                    // kamoulox
-                    // GNIK2TAMER
+                case 1 :{ //Niveau facile
+                    int[] target = randomTarget(map);  
+                
+                    // TODO: Paramètre
+                    tirer(target[0] , target[1], cible); 
                 }
+                
                 case 2:{
-                    // TEST
+                    
                 }
                 case 3:{
-                    // GPT
-                    //lul
                     
                 }
                 default:{
